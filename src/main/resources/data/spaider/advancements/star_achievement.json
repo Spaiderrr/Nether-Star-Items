@@ -1,0 +1,42 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "spaider:star"
+    },
+    "title": "Star Items",
+    "description": "Obtain the Nether Star by killing Wither.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "star_achievement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "spaider:star_sword_recipe",
+      "spaider:star_axe_recipe",
+      "spaider:star_pickaxe_recipe",
+      "spaider:star_shovel_recipe",
+      "spaider:star_hoe_recipe"
+    ]
+  }
+}

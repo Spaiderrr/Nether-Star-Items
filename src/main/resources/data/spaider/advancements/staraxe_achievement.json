@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "spaider:star_axe"
+    },
+    "title": "Star Axe",
+    "description": "Create star Axe!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "staraxe_achievement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spaider:star_axe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "spaider:star_achievement"
+}

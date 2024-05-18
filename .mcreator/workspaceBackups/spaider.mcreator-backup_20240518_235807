@@ -1,0 +1,312 @@
+{
+  "mod_elements": [
+    {
+      "name": "Star",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spaider/models/item/star.json",
+          "src/main/java/spaider/item/StarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Staritemstab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staritemstab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "StarSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/spaider/item/StarSwordItem.java",
+          "src/main/resources/assets/spaider/models/item/star_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "StarPickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/spaider/item/StarPickaxeItem.java",
+          "src/main/resources/assets/spaider/models/item/star_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "StarAxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spaider/models/item/star_axe.json",
+          "src/main/java/spaider/item/StarAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StarShovel",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/spaider/item/StarShovelItem.java",
+          "src/main/resources/assets/spaider/models/item/star_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "StarHoe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/spaider/models/item/star_hoe.json",
+          "src/main/java/spaider/item/StarHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StarSwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spaider/recipes/star_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StarAxeRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spaider/recipes/star_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StarPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spaider/recipes/star_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StarShovelRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spaider/recipes/star_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StarHoeRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spaider/recipes/star_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StarAchievement",
+      "type": "achievement",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_achievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spaider/advancements/star_achievement.json"
+        ]
+      }
+    },
+    {
+      "name": "StarswordAchievement",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starsword_achievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spaider/advancements/starsword_achievement.json"
+        ]
+      }
+    },
+    {
+      "name": "StaraxeAchievement",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staraxe_achievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spaider/advancements/staraxe_achievement.json"
+        ]
+      }
+    },
+    {
+      "name": "StarpickaxeAchievement",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starpickaxe_achievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spaider/advancements/starpickaxe_achievement.json"
+        ]
+      }
+    },
+    {
+      "name": "StarshovelAchievement",
+      "type": "achievement",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starshovel_achievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spaider/advancements/starshovel_achievement.json"
+        ]
+      }
+    },
+    {
+      "name": "StarhoeAchievement",
+      "type": "achievement",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starhoe_achievement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/spaider/advancements/starhoe_achievement.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "item.spaider.star_hoe": "Звездная мотыга",
+      "advancements.starsword_achievement.title": "Звездный меч",
+      "item.spaider.star_shovel": "Звездная лопата",
+      "advancements.star_achievement.title": "Звездные предметы",
+      "advancements.staraxe_achievement.descr": "Создайте звездный топор!",
+      "advancements.starhoe_achievement.title": "Звездная мотыга",
+      "item.spaider.star": "Звезда",
+      "advancements.starshovel_achievement.title": "Звездная лопата",
+      "advancements.star_achievement.descr": "Добудьте звезду незера, убив Визера.",
+      "advancements.starshovel_achievement.descr": "Создайте звездную лопату!",
+      "item.spaider.star_axe": "Звездный топор",
+      "advancements.starhoe_achievement.descr": "Создайте звездную мотыгу!",
+      "advancements.starsword_achievement.descr": "Создайте звездный меч!",
+      "item.spaider.star_sword": "Звездный меч",
+      "item.spaider.star_pickaxe": "Звездная кирка",
+      "advancements.starpickaxe_achievement.title": "Звездная кирка",
+      "item_group.spaider.staritemstab": "Звездные предметы",
+      "advancements.staraxe_achievement.title": "Звездный топор",
+      "advancements.starpickaxe_achievement.descr": "Создайте звездную кирку!"
+    },
+    "en_us": {
+      "advancements.starsword_achievement.title": "Star Sword",
+      "item.spaider.star_hoe": "Star Hoe",
+      "item.spaider.star_shovel": "Star Shovel",
+      "advancements.star_achievement.title": "Star Items",
+      "advancements.staraxe_achievement.descr": "Create star Axe!",
+      "advancements.starhoe_achievement.title": "Star Hoe",
+      "item.spaider.star": "Star",
+      "advancements.starshovel_achievement.title": "Star Shovel",
+      "advancements.star_achievement.descr": "Obtain the Nether Star by killing Wither.",
+      "advancements.starshovel_achievement.descr": "Create star Shovel!",
+      "item.spaider.star_axe": "Star Axe",
+      "advancements.starhoe_achievement.descr": "Create star Hoe!",
+      "advancements.starsword_achievement.descr": "Create star Sword!",
+      "item.spaider.star_sword": "Star Sword",
+      "item.spaider.star_pickaxe": "Звездная кирка",
+      "advancements.starpickaxe_achievement.title": "Star Pickaxe",
+      "item_group.spaider.staritemstab": "Star Items",
+      "advancements.staraxe_achievement.title": "Star Axe",
+      "advancements.starpickaxe_achievement.descr": "Create star Pickaxe!"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "spaider",
+    "modName": "Star Items",
+    "version": "1.0.0",
+    "description": "Star Items, my first mod",
+    "author": "Spaider",
+    "websiteURL": "https://modrinth.com/user/Spaiderr",
+    "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "avatar1",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Spaider",
+    "modElementsPackage": "spaider",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

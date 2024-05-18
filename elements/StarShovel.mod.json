@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "texture": "starshovelfinal",
+    "customModelName": "Normal",
+    "name": "Звездная лопата",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Staritemstab"
+    },
+    "harvestLevel": 1,
+    "efficiency": 13.0,
+    "attackSpeed": 1.2,
+    "enchantability": 18,
+    "damageVsEntity": 8.0,
+    "usageCount": 2800,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.NETHER_STAR"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

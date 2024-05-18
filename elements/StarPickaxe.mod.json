@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "texture": "starpickaxefinal",
+    "customModelName": "Normal",
+    "name": "Звездная кирка",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Staritemstab"
+    },
+    "harvestLevel": 5,
+    "efficiency": 20.0,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 18,
+    "damageVsEntity": 9.0,
+    "usageCount": 2800,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.NETHER_STAR"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

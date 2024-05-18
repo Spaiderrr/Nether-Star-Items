@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "texture": "staraxefinal",
+    "customModelName": "Normal",
+    "name": "Звездный топор",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Staritemstab"
+    },
+    "harvestLevel": 1,
+    "efficiency": 20.0,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 18,
+    "damageVsEntity": 15.0,
+    "usageCount": 2800,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Items.NETHER_STAR"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
